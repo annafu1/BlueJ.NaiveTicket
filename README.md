@@ -153,4 +153,4 @@ type: String, double
 	types: float
 * Can you assume anything about the names of its fields?
 It should be related to the 'Book' class (ex. title, author, barcode/serial number)
-READ upto and INCLUDING section 2.15 of this chapter. 
+READ upto and INCLUDING section 2.15 of this chapter.  
