@@ -88,9 +88,9 @@ No
 private int count;
 type: int
 private Student representative;
-type: non-Primative
+type: non-primative
 private Server host;
-type: non-Primative
+type: non-primative
 ```
 
 ### Exercise 2.12
@@ -129,12 +129,13 @@ Yes
 
 ### Exercise 2.15
 * Write in full the declaration for a field of type `int` whose name is `status`.
-int Status
+int status; 
+	
 ### Exercise 2.16
 * To what class does the following constructor belong?
 ```
 public Student(String name)
-class:
+class: Student
 ```
 
 ### Exercise 2.17
@@ -147,6 +148,9 @@ type: String, double
 
 ### Exercise 2.18
 * Can you guess what types some of the `Book` class’s fields might be?
+	types: int
+	types: String
+	types: float
 * Can you assume anything about the names of its fields?
-
+It should be related to the 'Book' class (ex. title, author, barcode/serial number)
 READ upto and INCLUDING section 2.15 of this chapter.
